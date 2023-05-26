@@ -12,9 +12,15 @@
       .custompic{
         background-image: url("/images/prompic.PNG");
 		background-repeat: no-repeat;
-		background-size: contain;
 		height: 100vh;
       }
+	
+	@media only screen and (max-width: 768px) {
+  		/* For mobile phones: */
+  		[class*="custompic"] {
+    	height: 50%;
+  		}
+	}
     </style>
 	<!--<link href="assets/css/bootstrap-theme.css" rel="stylesheet"/>-->
   </head>
