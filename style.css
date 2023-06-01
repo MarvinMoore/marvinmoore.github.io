@@ -17,7 +17,7 @@
 		background-size: 100% 100%;
   		/*border: 1px solid red; */
 	}
-	.intro-text1:before{
+	.intro-text1::before{
 		font-size: 14px;
 		positon: absolute;
 		background-color:black;
