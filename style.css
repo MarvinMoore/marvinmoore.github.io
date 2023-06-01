@@ -17,9 +17,20 @@
 		background-size: 100% 100%;
   		/*border: 1px solid red; */
 	}
-	.intro-text1{
+	.intro-text1:before{
 		font-size: 14px;
+		positon: absolute;
+		background-color:black;
+		animation: animate 4s steps(12) infinite;
 	}
+@keyframes animate{
+	40%, 60%{
+		left: 100%
+	}
+	100%{
+		left: 0%;
+	}
+}
 	.intro-text2{
 		font-size: 10px;
 	}
