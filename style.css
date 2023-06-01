@@ -1,0 +1,59 @@
+
+      .custompic{
+		width: 100%;
+		height: 400px;
+        background-image: url("/images/prompic.PNG");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+  		/*border: 1px solid red;*/
+      }
+		
+	/* For devices smaller than 400px: */
+	[class*="custompic"] {
+	  	width: 100%;
+		height: 300px;
+        background-image: url("/images/prompic.PNG");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+  		/*border: 1px solid red; */
+	}
+	.intro-text1{
+		font-size: 14px;
+	}
+	.intro-text2{
+		font-size: 10px;
+	}
+	.intro-text3{
+		font-size: 8px;
+	}
+	/* For devices 400px and larger: */
+	@media only screen and (min-device-width: 750px) {
+	  [class*="custompic"] {
+	  	width: 100%;
+		height: 600px;
+        background-image: url("/images/prompic.PNG");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+  		/*border: 1px solid red;*/
+	}
+	[class*="intro-text1"]{
+		font-size: 36px;
+	}
+	[class*="intro-text2"]{
+		font-size: 28px;
+	}
+	[class*="intro-text3"]{
+		font-size: 22px;
+	}
+	}
+	.footer {
+  		margin: 50px 0 0 0; /* or just use:  margin-top: 50px;*/
+		padding-bottom: 0;
+	}
+	.navbar {
+  		padding-top: 0.2rem;
+  		padding-bottom: 0.2rem;
+	}
+	.centered{
+		padding-left: 40px;		
+	}
