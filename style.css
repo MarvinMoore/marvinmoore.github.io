@@ -12,13 +12,14 @@ body{
 }
 .text-container{
     position: relative;
-    font-size: 36px;
+    font-size: 12px;
     font-weight: 600;
     display: inline-block;
     overflow: hidden;
 }
 .text-container .text.intro-text1:before{
     content: "";
+	font-size: 12px;
     position: absolute;
     top: 0;
     left: 0;
