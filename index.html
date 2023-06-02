@@ -48,7 +48,28 @@
 <div class="container-fluid">
   <div class="row bg-light">
     <div class="col centered align-self-center justify-content-center text-left fst-italic">
-		<h1 class="fw-bold intro-text1">Hi, I'm Marvin</h1>
+        <div class="text-container">
+		<span class="fw-bold text intro-text1">Hi, I'm Marvin</span>
+        </div>
+
+        <script>
+            const text = document.querySelector(".intro-text1");
+
+            const textLoad = () => {
+                setTimeout(() => {
+                    text.textContent = "Hi, I'm a Developer";
+                }, 0);
+                setTimeout(() => {
+                    text.textContent = "Welcome to my Website!";
+                }, 4000);
+                setTimeout(() => {
+                    text.textContent = "Hi, I'm Marvin";
+                }, 8000);
+            }
+
+            textLoad();
+            setInterval(textLoad, 12000);
+        </script>
 		<h3 class="fw-normal intro-text2">Versatile Fullstack Developer</h3>
      	<p class="intro-text3">Seamlessly Crafting Robust Software Solutions from Frontend to Backend.</p>
 		<div>
