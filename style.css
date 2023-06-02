@@ -7,9 +7,7 @@
     background-size: 100% 100%;
       /*border: 1px solid red;*/
   }
-body{
-    overflow: hidden;
-}
+
 .text-container{
     position: relative;
     font-size: 12px;
