@@ -7,7 +7,9 @@
     background-size: 100% 100%;
       /*border: 1px solid red;*/
   }
-
+body{
+	background-image: url("images/4907157.jpg");
+}
 .text-container{
     position: relative;
     font-size: 12px;
