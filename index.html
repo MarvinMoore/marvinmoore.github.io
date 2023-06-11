@@ -12,7 +12,7 @@
 	<!--<link href="assets/css/bootstrap-theme.css" rel="stylesheet"/>-->
   </head>
   <body>
-  	<nav class="navbar navbar-expand-lg sticky-top">
+  	<nav class="navbar navbar-expand-lg">
  		<div class="container-fluid justify-content-center">
 			<a class="navbar-brand centered" href="/home">
 			<img src="/images/m-logo2-removebg-preview2.png" alt="logo" width="54" height="54">
@@ -48,30 +48,29 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col centered align-self-center justify-content-center text-left fst-italic">
-        <div class="text-container">
-		<span class="fw-bold text intro-text1">Hi, I'm Marvin</span>
-        </div>
+		    <h1 class="fw-bold text intro-text1">Hi, I'm <span class="text-primary bg-gradient">Marvin</span></h1>
+    <div class="text-container">
+      <span class="fw-normal text intro-text2">Versatile Fullstack Developer</span>
+    </div>
+    <script>
+      /*const text = document.querySelector(".text.intro-text2");
 
-        <script>
-            const text = document.querySelector(".intro-text1");
+      const textLoad = () => {
+          setTimeout(() => {
+              text.textContent = "Fullstack";
+          }, 0);
+          setTimeout(() => {
+              text.textContent = "Frontend";
+          }, 4000);
+          setTimeout(() => {
+              text.textContent = "Backend";
+          }, 8000);
+      }
 
-            const textLoad = () => {
-                setTimeout(() => {
-                    text.textContent = "Hi, I'm a Developer";
-                }, 0);
-                setTimeout(() => {
-                    text.textContent = "Welcome to my Website!";
-                }, 4000);
-                setTimeout(() => {
-                    text.textContent = "Hi, I'm Marvin";
-                }, 8000);
-            }
-
-            textLoad();
-            setInterval(textLoad, 12000);
-        </script>
-		<h3 class="fw-normal intro-text2">Versatile Fullstack Developer</h3>
-     	<p class="intro-text3">Seamlessly Crafting Robust Software Solutions from Frontend to Backend.</p>
+      textLoad();
+      setInterval(textLoad, 12000);*/
+  </script>
+    <p class="intro-text3">Seamlessly Crafting Robust Software Solutions from Frontend to Backend.</p>
 		<div>
 		<a class="btn btn-primary" href="/aboutme" role="button">Learn More</a>
 		</div>
